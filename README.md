@@ -1,4 +1,5 @@
 📄 Smart Resume Screening & Shortlisting System (Python)
+
 🚀 A Python-based tool to automate resume screening and candidate shortlisting using skill-based matching.
 
 This project is a Python-based Resume Screening System that automates the process of evaluating and shortlisting candidates based on job-specific skills.
