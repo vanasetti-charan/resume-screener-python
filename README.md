@@ -85,7 +85,7 @@ resume-screener-python/
 
 👉 Candidate must match at least 60% of required skills
 
-##▶️ How to Run
+▶️ How to Run
 1. Clone the repository
 git clone https://github.com/vanasetti-charan/resume-screener-python.git
 cd resume-screener-python
@@ -103,7 +103,7 @@ python sample.py
 python developer
 
 ##📊 Output
-#🖥️ Console Output
+🖥️ Console Output
 - Resume name
 - Matched skills
 - Resume score
@@ -118,7 +118,7 @@ Recruiters often receive hundreds of resumes for a single job role, making manua
 
 This project automates the initial screening process by analyzing resumes based on required skills, helping identify the most relevant candidates quickly and efficiently.
 
-##⚠️ Limitations
+⚠️ Limitations
 - Keyword-based matching (no NLP)
 - Cannot detect synonyms or context
 - Job roles are predefined
@@ -130,14 +130,14 @@ This project automates the initial screening process by analyzing resumes based 
 - 🔎 Add fuzzy matching
 - ☁️ Deploy online
 
-##👨‍💻 Author
+👨‍💻 Author
 
-#Vanasetti Charan
+Vanasetti Charan
 -Aspiring Python Backend Developer 🚀
 
 ⭐ Support
 
 - If you like this project:
 
-##⭐ Star the repo
-##🔗 Share on LinkedIn
+- ⭐ Star the repo
+- 🔗 Share on LinkedIn
