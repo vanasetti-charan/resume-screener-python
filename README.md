@@ -4,7 +4,7 @@
 
 ---
 
-##🚀 Overview
+🚀 Overview
 
 This project is a Python-based Resume Screening System that automates the process of evaluating and shortlisting candidates based on job-specific skills.
 
@@ -12,7 +12,7 @@ It reads resumes in PDF and DOCX formats, extracts relevant information, and com
 
 ---
 
-##🎯 Key Features
+🎯 Key Features
 
 - 📂 Processes multiple resumes from a folder  
 - 📄 Supports PDF & DOCX formats  
@@ -24,7 +24,7 @@ It reads resumes in PDF and DOCX formats, extracts relevant information, and com
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 - Python  
 - Pandas  
@@ -34,7 +34,7 @@ It reads resumes in PDF and DOCX formats, extracts relevant information, and com
 
 ---
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 ```bash
 resume-screener-python/
@@ -50,9 +50,9 @@ resume-screener-python/
     └── Sr.Quality Engineer Resume (1).pdf
 ```
 ---
-##📊 Sample Results (Real Test Data)
+📊 Sample Results (Real Test Data)
 
-#The system was tested on multiple resumes:
+- The system was tested on multiple resumes:
 
 | Resume Name                             | Score (%) | Status         |
 | --------------------------------------- | --------- | -------------  |
@@ -63,18 +63,18 @@ resume-screener-python/
 | My Resume                               | 65%       | ✅ Shortlisted |
 | Sr. Quality Engineer Resume             | 20–40%    | ❌ Rejected    |
 ---
-##📸 Output Screenshots
+📸 Output Screenshots
 
 📊 Excel Output
 <img width="1041" height="202" alt="Resume Screening Excel Output" src="https://github.com/user-attachments/assets/08e2ee83-f5d7-4f0a-b095-eb0a6447c336" />
 ---
-##📌 How It Works
+📌 How It Works
 - User enters a job role (e.g., python developer)
 - System loads required skills for that role
 - Reads all resumes from the Resumes-folder
 - Extracts text from each file
 - Matches skills using keyword-based logic
-# 📊 Calculates:
+ 📊 Calculates:
 - Matched skills
 - Resume score (%)
 - Shortlist status
@@ -87,7 +87,7 @@ resume-screener-python/
 
 👉 Candidate must match at least 60% of required skills
 ---
-##▶️ How to Run
+▶️ How to Run
 1. Clone the repository
 git clone https://github.com/vanasetti-charan/resume-screener-python.git
 cd resume-screener-python
@@ -104,7 +104,7 @@ python sample.py
 5. Enter job title
 python developer
 ---
-##📊 Output
+📊 Output
 - 🖥️ Console Output
 - Resume name
 - Matched skills
@@ -114,13 +114,13 @@ python developer
 - All resumes sorted by score
 - File: result.xlsx
 ---
-##💡 Why This Project?
+💡 Why This Project?
 
 Recruiters often receive hundreds of resumes for a single job role, making manual screening time-consuming and inefficient.
 
 This project automates the initial screening process by analyzing resumes based on required skills, helping identify the most relevant candidates quickly and efficiently.
 ---
-##⚠️ Limitations
+⚠️ Limitations
 - Keyword-based matching (no NLP)
 - Cannot detect synonyms or context
 - Job roles are predefined
