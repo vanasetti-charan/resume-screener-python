@@ -49,6 +49,7 @@ resume-screener-python/
     ├── My Resume.docx
     └── Sr.Quality Engineer Resume (1).pdf
 ```
+---
 ##📊 Sample Results (Real Test Data)
 
 #The system was tested on multiple resumes:
@@ -61,11 +62,12 @@ resume-screener-python/
 | Manasa Resume                           | 60–70%    | ⚠️ Borderline  |
 | My Resume                               | 65%       | ✅ Shortlisted |
 | Sr. Quality Engineer Resume             | 20–40%    | ❌ Rejected    |
-
+---
 ##📸 Output Screenshots
 
 📊 Excel Output
 <img width="1041" height="202" alt="Resume Screening Excel Output" src="https://github.com/user-attachments/assets/08e2ee83-f5d7-4f0a-b095-eb0a6447c336" />
+---
 ##📌 How It Works
 - User enters a job role (e.g., python developer)
 - System loads required skills for that role
@@ -84,7 +86,7 @@ resume-screener-python/
 - Matching is done using keyword search
 
 👉 Candidate must match at least 60% of required skills
-
+---
 ##▶️ How to Run
 1. Clone the repository
 git clone https://github.com/vanasetti-charan/resume-screener-python.git
@@ -101,7 +103,7 @@ python sample.py
 
 5. Enter job title
 python developer
-
+---
 ##📊 Output
 - 🖥️ Console Output
 - Resume name
@@ -111,13 +113,13 @@ python developer
 - 📁 Excel Output
 - All resumes sorted by score
 - File: result.xlsx
-
+---
 ##💡 Why This Project?
 
 Recruiters often receive hundreds of resumes for a single job role, making manual screening time-consuming and inefficient.
 
 This project automates the initial screening process by analyzing resumes based on required skills, helping identify the most relevant candidates quickly and efficiently.
-
+---
 ##⚠️ Limitations
 - Keyword-based matching (no NLP)
 - Cannot detect synonyms or context
@@ -129,12 +131,12 @@ This project automates the initial screening process by analyzing resumes based 
 - 📊 Improve Excel formatting
 - 🔎 Add fuzzy matching
 - ☁️ Deploy online
-
+---
 👨‍💻 Author
 
 Vanasetti Charan
 -Aspiring Python Backend Developer 🚀
-
+---
 ⭐ Support
 
 - If you like this project:
